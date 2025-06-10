@@ -21,17 +21,24 @@
       justify-content: center;
       height: 100vh;
       text-align: center;
+      padding: 0 20px;
     }
     h1 {
       font-size: 3rem;
       margin-bottom: 1rem;
       animation: fadeIn 2s ease-out;
     }
-    p {
+    p, .quote {
       font-size: 1.2rem;
-      max-width: 600px;
-      margin-bottom: 2rem;
+      max-width: 700px;
+      margin-bottom: 1.5rem;
       animation: fadeIn 2.5s ease-out;
+    }
+    .quote {
+      font-style: italic;
+      color: #f8f8f8;
+      border-left: 4px solid #fff;
+      padding-left: 15px;
     }
     a.button {
       display: inline-block;
@@ -56,6 +63,10 @@
 <body>
   <h1>🚀 Welcome to My GitHub Page</h1>
   <p>This is a simple, elegant, and responsive GitHub Pages site. You can use it to showcase your portfolio, projects, or anything you love.</p>
+  <div class="quote">
+    “Quality is never an accident; it is always the result of intelligent effort.”<br />
+    QA isn't just about finding bugs — it's about building confidence in what we deliver.
+  </div>
   <a href="https://github.com/yagnesh-vekariya" class="button" target="_blank">Visit My GitHub</a>
 </body>
 </html>
